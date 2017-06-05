@@ -2,7 +2,7 @@ $( () => {
   alert("si funciona");
 });
 
-'use strict'
+'use strict';
 
 const render = (root) => {
   root.empty();
@@ -19,6 +19,6 @@ const state = {
 };
 
 $( _ => {
-  const = $('.root');
+  const root = $('.root');
   render(root);
 });
