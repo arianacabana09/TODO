@@ -1,10 +1,6 @@
-$( () => {
-  alert("si funciona");
-});
-
 'use strict';
 
-const render = (root) => {
+const render = (root) =>{
   root.empty();
   const wrapper = $('<div class="wrapper"></div>');
 
@@ -15,10 +11,10 @@ const render = (root) => {
 }
 
 const state = {
-  todos : []
+  todos: []
 };
 
-$( _ => {
-  const root = $('.root');
+$( _=> {
+  const root = $(".root");
   render(root);
 });
